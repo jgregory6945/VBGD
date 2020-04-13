@@ -1,0 +1,126 @@
+<html>
+
+	<title> "Virginia Beach Goldendoodles-Home"</title>
+	<link href="vbgd_gallery.css" rel="stylesheet" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Latest compiled and minified CSS -->
+
+<body>
+<div class="header"  >
+
+<h1 id="logo1"   >Virginia Beach</h1>
+<p id="logo2"   >Goldendoodles</p>
+</div>
+<div style= "padding-top: 20px;">
+
+<ul class="topnav">
+  <li><a href="vbgd_home.html">Home</a></li>
+  <li><a href="vbgd_about.html">About Us</a></li>
+  <li><a href="vbgd_litters.html">Litters</a></li>
+  <li><a href="vbgd_parents.html">Parents and Info</a></li>
+  <li><a class="active" href="vbgd_gallery.html">Gallery</a></li>
+  <li><a href="vbgd_contact.html">Contact Us</a></li>
+</ul>
+
+</div>
+<h1 id="top">Our Doodles</h1>
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 6</div>
+    <img src="pups1.jpg" style="width:100%">
+    <div class="text">"Pick Me! Pick Me!"</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 6</div>
+    <img src="pup1.jpg" style="width:100% height:50%" >
+    <div class="text">"Here I Am!"</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 6</div>
+    <img src="pup2.jpg" style="width:100%">
+    <div class="text">"Let's Ride!" </div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 6</div>
+    <img src="pup3.jpg" style="width:100%">
+    <div class="text">"Let's Play!!"</div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 6</div>
+    <img src="Ghost.jpg" style="width:100%">
+    <div class="text">Caption Five</div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">6 / 6</div>
+    <img src="create2.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+
+</div>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+		
+<h4><center></center></h4>
+
+
+
+   
+
+<footer >
+
+
+  
+  <p><a href="https://www.facebook.com/groups/virginiabeachgoldendoodles/"> <img src="download.png" style="width:5%;height:7%;"></a>
+  <a href= "https://www.instagram.com/virginiabeachgoldendoodles/"><img src="download1.png" style="width:5%;height:7%;"></a>
+  &nbsp;&nbsp;&nbsp;&#169;2020 Virginia Beach Goldendoodles&nbsp;&nbsp;&nbsp;<a href="https://goldendoodles.com/breeder/virginiabeach.htm">
+  <img src="breeder.jpg" alt="breeder" style="width:7%;height:9%" ></a>
+ </p>
+</footer>
+
+</body>
+</html>

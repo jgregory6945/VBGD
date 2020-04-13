@@ -145,3 +145,8 @@ footer{
 	font-size: 150%;
 	
 }
+@media screen and (max-width: 600px) {
+  footer{
+	  font-size: 80%;
+  }
+}

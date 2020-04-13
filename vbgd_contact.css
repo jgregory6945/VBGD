@@ -4,7 +4,7 @@
 
 
 .header {
-	height: 33%;
+	height: 33 %;
 	margin-left: 10px;
 	margin-right: 10px;
 	 text-align: center;
@@ -42,43 +42,30 @@
 	text-shadow: 7px 5px 3px DeepSkyBlue;
 }
 #wel{
-	font-size: 40px;
-	text-align: left;
+	font-size: 60px;
+	text-align: center;
 		 font-family: "Arial";
    color: white;
 	text-shadow: 7px 5px 3px DeepSkyBlue;
 }
 #welp{
 	font-size: 20px;
-	text-align: left;
-		 font-family: "Arial";
-   color: white;
-   	text-shadow: 7px 5px 3px Aquamarine;
-}#wel2{
-	font-size: 40px;
-	text-align: right;
-		 font-family: "Arial";
-   color: white;
-	text-shadow: 7px 5px 3px DeepSkyBlue;
-}
-#welp2{
-	font-size: 20px;
-	text-align: left;
+	text-align: center;
 		 font-family: "Arial";
    color: white;
    	text-shadow: 7px 5px 3px Aquamarine;
 }
-#crePic {
-	float:right;
-	border-radius: 50%;
-	
+.contact {
+	color:white;
+	margin-left: 30%;
+	margin-right: 30%;
+	 text-align: center;
+   background-image: linear-gradient(to bottom right, Aquamarine, DeepSkyBlue, Aquamarine, DeepSkyBlue);
+  box-shadow: 10px 10px 5px Aquamarine;
 }
-#crePic2 {
-	float:left;
-	border-radius: 50%;
+#bless{
+	padding:50px;
 }
-
-
 @media screen and (max-width: 600px) {
   #quote, #welp{
     font-size: 90%;
@@ -92,8 +79,11 @@
 }
 
 @media screen and (max-width: 600px) {
-  #logo2, #logo1, #wel {
+  #logo2, #logo1, #wel  {
     font-size: 30px;
+  }
+  #bless{
+	  padding: 5px;
   }
 }
 .container {
