@@ -12,6 +12,23 @@
    background-image: linear-gradient(to bottom right, azure, DeepSkyBlue, azure, DeepSkyBlue);
   box-shadow: 10px 10px 5px grey;
 
+} 
+.para{
+	height: 43%;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 126%;
+	text-shadow: 2px 2px 4px #000000;
+	 text-align: center;
+	 border-radius: 50px 50px 50px 50px; 
+   background-image: linear-gradient(to bottom right, green, DeepSkyBlue, green, DeepSkyBlue);
+  box-shadow: 10px 10px 5px grey;
+
+}
+@media screen and (max-width: 600px) {
+.para{
+	font-size:80%;
+}
 }
 #logo1{
 	 font-family: "AR JULIAN";
@@ -43,14 +60,14 @@
 }
 #wel{
 	font-size: 40px;
-	text-align: left;
+	text-align: center;
 		 font-family: "Arial";
    color: white;
 	text-shadow: 7px 5px 3px DeepSkyBlue;
 }
 #welp{
-	font-size: 20px;
-	text-align: left;
+	font-size: 25px;
+	text-align: center;
 		 font-family: "Arial";
    color: white;
    	text-shadow: 7px 5px 3px Aquamarine;
@@ -92,7 +109,7 @@
 }
 
 @media screen and (max-width: 600px) {
-  #logo2, #logo1, #wel {
+  #logo2, #logo1, #wel, {
     font-size: 30px;
   }
 }

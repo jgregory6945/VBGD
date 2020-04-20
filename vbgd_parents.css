@@ -13,6 +13,38 @@
   box-shadow: 10px 10px 5px grey;
 
 }
+.retire {
+	height: 75%;
+	margin-left: 10px;
+	margin-right: 10px;
+	 
+	 border-radius: 50px 50px 50px 50px; 
+   background-image: linear-gradient(to bottom right, azure, DeepSkyBlue, azure, DeepSkyBlue);
+  box-shadow: 10px 10px 5px grey;
+}
+#retire {
+	font-size: 30px;
+	text-align: left;
+		 font-family: "Arial";
+   color: white;
+	text-shadow: 7px 5px 3px green;
+}
+#retire2 {
+	font-size: 30px;
+	text-align: right;
+		 font-family: "Arial";
+   color: white;
+	text-shadow: 7px 5px 3px green;
+}
+#retire3 {
+	font-size: 30px;
+	text-align: center;
+		 font-family: "Arial";
+   color: white;
+	text-shadow: 7px 5px 3px green;
+}
+
+
 #logo1{
 	 font-family: "AR JULIAN";
   font-size: 320%;
@@ -41,8 +73,23 @@
    color: white;
 	text-shadow: 7px 5px 3px DeepSkyBlue;
 }
+#top2{
+	font-size: 45px;
+	text-align: center;
+		 font-family: "Arial";
+   color: white;
+   font-style: italic;
+	text-shadow: 7px 5px 3px DeepSkyBlue;
+}
+#top3{
+	font-size: 45px;
+	text-align: center;
+		 font-family: "Arial";
+   color: white;
+	text-shadow: 7px 2px 3px green;
+}
 #wel{
-	font-size: 40px;
+	font-size: 30px;
 	text-align: left;
 		 font-family: "Arial";
    color: white;
@@ -54,8 +101,9 @@
 		 font-family: "Arial";
    color: white;
    	text-shadow: 7px 5px 3px Aquamarine;
+	
 }#wel2{
-	font-size: 40px;
+	font-size: 30px;
 	text-align: right;
 		 font-family: "Arial";
    color: white;
@@ -71,18 +119,34 @@
 #crePic {
 	float:right;
 	border-radius: 50%;
-	
+	box-shadow: 7px 5px 3px Aquamarine;
 }
 #crePic2 {
 	float:left;
 	border-radius: 50%;
+		box-shadow: 7px 5px 3px Aquamarine;
+
+}
+#crePic3 {
+	  display: block;
+  margin-left: auto;
+  margin-right: auto;
+	border-radius: 50%;
+		box-shadow: 7px 5px 3px Aquamarine;
+
+}
+p::first-letter {
+  color: DeepSkyBlue;
+  font-size: 300%;
 }
 
 
 @media screen and (max-width: 600px) {
   #quote, #welp{
     font-size: 90%;
+	
   }
+ 
 }
   
 @media screen and (min-width: 601px) {
@@ -103,9 +167,9 @@
 }
 
 /* Bottom left text */
-.bottom-left {
+.left {
   position: absolute;
-  bottom: 8px;
+  
   left: 16px;
 }
 
